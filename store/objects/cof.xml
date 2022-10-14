@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectlist>
+	<object id="1">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="lhcoastsky2_fixed.col"/>
+		<model path="lhcoastsky2_fixed.dff" distance="299"/>
+	</object>
+	<object id="2">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="od_chariot_fixed.col"/>
+		<model path="od_chariot_fixed.dff" distance="299"/>
+	</object>
+	<object id="3">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_islandwest_fixed.col"/>
+		<model path="ci_islandwest_fixed.dff" distance="299"/>
+	</object>
+	<object id="4">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="doontoon62_fixed.col"/>
+		<model path="doontoon62_fixed.dff" distance="299"/>
+	</object>
+	<object id="5">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="recordingstudio_fixed.col"/>
+		<model path="recordingstudio_fixed.dff" distance="299"/>
+	</object>
+	<object id="6">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="doontoon58_fixed.col"/>
+		<model path="doontoon58_fixed.dff" distance="299"/>
+	</object>
+	<object id="7">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="doontoon22_fixed.col"/>
+		<model path="doontoon22_fixed.dff" distance="299"/>
+	</object>
+	<object id="8">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision type="autogenerate"/>
+		<model path="nbhotel02_fixed.dff" distance="299"/>
+	</object>
+	<object id="9">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_astage_fixed.col"/>
+		<model path="ci_astage_fixed.dff" distance="299"/>
+	</object>
+	<object id="10">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_dstageext_fixed.col"/>
+		<model path="ci_dstageext_fixed.dff" distance="299"/>
+	</object>
+	<object id="11">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_bstage_fixed.col"/>
+		<model path="ci_bstage_fixed.dff" distance="299"/>
+	</object>
+	<object id="12">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="doontoon39_fixed.col"/>
+		<model path="doontoon39_fixed.dff" distance="299"/>
+	</object>
+	<object id="13">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="doontoon56_fixed.col"/>
+		<model path="doontoon56_fixed.dff" distance="299"/>
+	</object>
+	<object id="14">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="newbuild01_fixed.col"/>
+		<model path="newbuild01_fixed.dff" distance="299"/>
+	</object>
+	<object id="15">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_mansionwall1_fixed.col"/>
+		<model path="ci_mansionwall1_fixed.dff" distance="299"/>
+	</object>
+	<object id="16">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_mansion1_fixed.col"/>
+		<model path="ci_mansion1_fixed.dff" distance="299"/>
+	</object>
+	<object id="17">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_mansion2_fixed.col"/>
+		<model path="ci_mansion2_fixed.dff" distance="299"/>
+	</object>
+	<object id="18">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ci_mansion3_fixed.col"/>
+		<model path="ci_mansion3_fixed.dff" distance="299"/>
+	</object>
+	<object id="19">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="mlnorthmalllftex_fixed.col"/>
+		<model path="mlnorthmalllftex_fixed.dff" distance="299"/>
+	</object>
+	<object id="20">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ml_escl_fixed.col"/>
+		<model path="ml_escl_fixed.dff" distance="299"/>
+	</object>
+	<object id="21">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="ml_escl1_fixed.col"/>
+		<model path="ml_escl1_fixed.dff" distance="299"/>
+	</object>
+	<object id="22">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="mallint5_fixed.col"/>
+		<model path="mallint5_fixed.dff" distance="299"/>
+	</object>
+	<object id="23">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="mlnorthmall_fixed.col"/>
+		<model path="mlnorthmall_fixed.dff" distance="299"/>
+	</object>
+	<object id="24">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="seveneleven_fixed.col"/>
+		<model path="seveneleven_fixed.dff" distance="299"/>
+	</object>
+	<object id="25">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="nbdecoshop03_fixed.col"/>
+		<model path="nbdecoshop03_fixed.dff" distance="299"/>
+	</object>
+	<object id="26">
+		<flags value="0"/>
+		<texture path="fixes.txd"/>
+		<collision path="doontoon55_fixed.col"/>
+		<model path="doontoon55_fixed.dff" distance="299"/>
+	</object>
+ </objectlist>
