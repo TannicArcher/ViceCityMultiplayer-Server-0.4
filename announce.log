@@ -1,0 +1,100 @@
+master.adtec.ovh: Did not receive an HTTP/1.1 200 OK response. Full response follows:
+---------------------- Begin response ----------------------
+HTTP/1.1 405 Not Allowed
+Date: Fri, 14 Oct 2022 14:41:47 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: close
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+----------------------- End response -----------------------
+master.adtec.ovh: Did not receive an HTTP/1.1 200 OK response. Full response follows:
+---------------------- Begin response ----------------------
+HTTP/1.1 405 Not Allowed
+Date: Fri, 14 Oct 2022 14:49:18 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: close
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+----------------------- End response -----------------------
+master.thijn.ovh: Did not receive an HTTP/1.1 200 OK response. Full response follows:
+---------------------- Begin response ----------------------
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 14 Oct 2022 14:49:42 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Strict-Transport-Security: max-age=63072000
+
+12
+Server unreachable
+0
+
+
+----------------------- End response -----------------------
+master.adtec.ovh: Did not receive an HTTP/1.1 200 OK response. Full response follows:
+---------------------- Begin response ----------------------
+HTTP/1.1 405 Not Allowed
+Date: Fri, 14 Oct 2022 14:50:22 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: close
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+----------------------- End response -----------------------
+master.thijn.ovh: Did not receive an HTTP/1.1 200 OK response. Full response follows:
+---------------------- Begin response ----------------------
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 14 Oct 2022 14:50:46 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Strict-Transport-Security: max-age=63072000
+
+12
+Server unreachable
+0
+
+
+----------------------- End response -----------------------
+master.adtec.ovh: Did not receive an HTTP/1.1 200 OK response. Full response follows:
+---------------------- Begin response ----------------------
+HTTP/1.1 405 Not Allowed
+Date: Fri, 14 Oct 2022 14:50:33 GMT
+Content-Type: text/html
+Content-Length: 157
+Connection: close
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+
+----------------------- End response -----------------------

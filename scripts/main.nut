@@ -10,7 +10,27 @@ function onServerStop()
 {
 }
 */
+local shift = BindKey( true, 0x10, 0, 0 );
+local num8 = BindKey( true, 0x68, 0, 0 );
+local num4 = BindKey( true, 0x64, 0, 0 );
+local num6 = BindKey( true, 0x66, 0, 0 );
+local num5 = BindKey( true, 0x65, 0, 0 );
 
+
+/*     Hydraulics System done by Sebastian!     */
+/*     Don't change the settings - too risky       */
+
+local  hyd_top = 2.4, // high level - actioned when pressing SHIFT - set 0 to remove the uppering (safer gameplay)
+  hyd_z = -0.1, // Centre of Mass Z
+  hyd_zl = 0.7, // Upper Limit variation -
+  hyd_lean = 1.4, // front lean
+  hyd_oplean = -1.4, // rear lean
+  hyd_side = 0.5, // right lean
+  hyd_opside = -0.5, // left lean
+  hyd_mark = -0.001, // trick
+  hyd_25 = array( 1000, 0 ), // had to do with the UpperLimit variation
+  hyd_ticks = array( 100, 0 ), // anti-spam of everyplayer
+  hyd_tickslimit = 600; // interval of time a player can bounce again (in miliseconds)
 function onScriptLoad()
 {
 CreateObject(6004,1,Vector(214.623, -664.008, 13.1426),255).RotateToEuler(Vector(0, 0, 1.45),1)
@@ -55,6 +75,7 @@ function onScriptUnload()
 
 function onPlayerJoin( player )
 {
+	hyd_ticks[ player.ID ] = 0;
 }
 
 function onPlayerPart( player, reason )
@@ -550,6 +571,41 @@ else if ( cmd == "bank" )
                   MessagePlayer( "[#ffbb00]*** Teleport Done To Villa. Enjoy! ***", player );
                 }
          }
+		 else if (cmd== "fps")
+{
+MessagePlayer("[#ffffff] " + player.Name + " [#ffff00]FPS " + player.FPS +  "[#ffff00].",player);
+}
+
+else if (cmd== "ping")
+{
+MessagePlayer("[#ffffff] " + player.Name + " [#ffff00]PING " + player.Ping +  "[#ffff00].",player);
+}
+
+else if (cmd== "myip")
+{
+MessagePlayer("[#ffffff] " + player.Name + " [#ffff00]IP " + player.IP +  "[#ffff00].",player);
+}
+
+else if (cmd== "score")
+{
+MessagePlayer("[#ffffff] " + player.Name + " [#ffff00]SCORE " + player.Score +  "[#ffff00].",player);
+}
+
+else if (cmd== "cash")
+{
+MessagePlayer("[#ffffff] " + player.Name + " [#ffff00]Cash " + player.Cash +  "[#ffff00].",player);
+}
+
+else if (cmd== "skin")
+{
+MessagePlayer("[#ffffff] " + player.Name + " [#ffff00]Skin " + player.Skin +  "[#ffff00].",player);
+}
+
+else if (cmd== "myinfo")
+{
+MessagePlayer("[#ffffff] " + player.Name + " [#ffff00]Info - FPS " + player.FPS +  " PING  " + player.Ping +  " IP " + player.IP +  "CASH" + player.Cash +  "SKIN " + player.Skin +  "SCORE " + player.Score +  "[#ffff00].",player);
+}
+
 	return 1;
 }
 /*
